@@ -1,0 +1,43 @@
+:root{
+    --dark: black;
+    --white: white;
+    --light-grey: #efefef;
+    --gold:#ecd5a7;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:1rem;
+    font-weight:300;
+    letter-spacing: .05rem;
+    background-color: var(--dark);
+}
+h1,h2,h3,h4,h5,h6,.navbar-brand{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+.bg-dark{
+    background-color: var(--dark)!important;
+}
+a{
+  color: var(--light);
+
+}
+a:hover{
+    color:var(--light);
+    text-decoration: none;  
+}
+.text-gold{
+    color: var(--gold)!important;
+}
+.nav-link{
+    color:var(--white);
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+section{
+    padding:6rem 0;
+}
+#secc1{
+    padding: 0;
+}
